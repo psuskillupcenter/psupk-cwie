@@ -188,3 +188,26 @@ body{background:#fff}
 .c-network-numbers span{font-size:13px;line-height:1.6;color:#e4f3ff}
 @media(max-width:800px){.logo-frame{min-height:240px;max-width:580px}.logo-frame .psu-logo-hero{max-height:200px}}
 @media(max-width:580px){.logo-frame{min-height:185px;padding:22px;border-radius:19px}.logo-frame .psu-logo-hero{max-height:145px}.c-network-graphic{padding:25px;min-height:250px}.c-network-numbers{gap:9px}.c-network-numbers>div{padding-left:9px}.c-network-numbers strong{font-size:28px}.c-network-numbers span{font-size:10px}.brand b{font-size:17px}.brand span{font-size:9px}}
+
+
+/* ---- Power BI inspired clean hero (2026-11-23) ---- */
+.power-hero{position:relative;overflow:hidden;background:#f3f4f6;padding:78px 0 96px;border-bottom:1px solid #e3eaf2;isolation:isolate}
+.power-hero:before{content:"";position:absolute;right:-10%;top:-18%;width:58vw;max-width:900px;height:58vw;max-height:900px;border-radius:46% 54% 55% 45%/44% 48% 52% 56%;background:radial-gradient(circle at 35% 40%,rgba(58,133,232,.08),transparent 56%);z-index:-3}
+.power-hero-inner{position:relative;min-height:310px;display:flex;align-items:center}
+.power-hero-copy{position:relative;z-index:2;max-width:610px}
+.power-kicker{margin:0 0 18px;color:#2b6ebb;font-size:12px;font-weight:800;letter-spacing:.18em}
+.power-hero h1{margin:0;color:#0b1e3b;font-size:clamp(42px,5vw,68px);line-height:1.18;letter-spacing:-.04em;font-weight:700;max-width:540px}
+.power-hero-text{margin:24px 0 0;color:#294d75;font-size:20px;font-weight:600;line-height:1.45}
+.power-hero-desc{margin:18px 0 0;color:#5b6d83;font-size:16px;line-height:1.8;max-width:560px}
+.power-actions{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-top:34px}
+.power-hero .c-button.primary{background:linear-gradient(135deg,#0e66d4,#178ef2);box-shadow:0 8px 18px rgba(20,103,208,.18)}
+.power-outline{background:#fff;color:#1554a1;border:1px solid #bfd6ef;box-shadow:none}
+.power-outline:hover{background:#f6fbff}
+.power-hero-watermark{position:absolute;right:-2%;top:50%;transform:translateY(-50%);width:min(51vw,860px);opacity:.12;z-index:-1;pointer-events:none;filter:grayscale(5%)}
+.power-hero-watermark img{display:block;width:100%;height:auto}
+.stats-wrap{position:relative;margin-top:-36px;z-index:3}
+.feature-summary{border-radius:20px;overflow:hidden;box-shadow:0 12px 34px rgba(10,39,82,.08)}
+.feature-summary .summary-item{background:#fff}
+@media(max-width:980px){.power-hero{padding:66px 0 88px}.power-hero-watermark{width:min(63vw,620px);right:-10%}.power-hero h1{font-size:clamp(36px,5vw,56px)}}
+@media(max-width:760px){.power-hero{padding:56px 0 78px}.power-hero-inner{min-height:auto}.power-hero-copy{max-width:none}.power-hero-watermark{width:min(84vw,560px);right:-22%;top:49%;opacity:.11}.power-hero h1{max-width:500px}.power-hero-text{font-size:18px}.stats-wrap{margin-top:-28px}}
+@media(max-width:580px){.power-hero{padding:42px 0 64px}.power-kicker{font-size:10px;letter-spacing:.12em;margin-bottom:12px}.power-hero h1{font-size:clamp(30px,9vw,42px);line-height:1.23;max-width:320px}.power-hero-text{font-size:16px;margin-top:18px}.power-hero-desc{font-size:14px;line-height:1.75;margin-top:14px}.power-actions{margin-top:24px;gap:10px;align-items:stretch}.power-actions .c-button{width:100%;justify-content:center}.power-hero-watermark{width:92vw;right:-28%;top:56%;opacity:.10}.stats-wrap{margin-top:-22px}}
