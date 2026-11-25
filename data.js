@@ -1486,14 +1486,7 @@ window.CWIE_DATA = {
       "students": 1,
       "notes": ""
     },
-    {
-      "id": 45,
-      "faculty": "คณะวิเทศศึกษา",
-      "organization": "Qingdao Jelibao Trading Co.",
-      "country": "จีน",
-      "students": 3,
-      "notes": ""
-    },
+    
     {
       "id": 46,
       "faculty": "คณะวิเทศศึกษา",
